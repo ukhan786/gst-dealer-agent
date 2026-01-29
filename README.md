@@ -1,3 +1,12 @@
+## Run the API locally
+
+```bash
+cd apps/api
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+uvicorn main:app --reload --port 8000
+
 # GSTsandbox
 
 GSTsandbox is a starter monorepo skeleton for a future API and web application stack.
